@@ -74,4 +74,6 @@
 [submodule "thirdparty/folly"]
 	path = thirdparty/folly
 	url = https://github.com/facebook/folly.git
-	
+[submodule "gitignore"]
+	path = gitignore
+	url = https://github.com/toptal/gitignore.git
