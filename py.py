@@ -1,5 +1,6 @@
-  gr.HTML('''
-  <div style="text-align: center; max-width: 720px; margin: 0 auto;">
+    gr.HTML(
+        """
+            <div style="text-align: center; max-width: 720px; margin: 0 auto;">
               <div
                 style="
                   display: inline-flex;
@@ -42,11 +43,12 @@
                   <rect x="23" y="69" width="23" height="23" fill="black"></rect>
                 </svg>
                 <h1 style="font-weight: 900; margin-bottom: 7px;">
-                  Stable Diffusion Conceptualizer
+                  Image Generation Test
                 </h1>
               </div>
               <p style="margin-bottom: 10px; font-size: 94%">
-                Navigate through community created concepts and styles via Stable Diffusion Textual Inversion and pick yours for inference.
-                To train your own concepts and contribute to the library <a style="text-decoration: underline" href="https://colab.research.google.com/github/huggingface/notebooks/blob/main/diffusers/sd_textual_inversion_training.ipynb">check out this notebook</a>.
+                Test My Concept
               </p>
-            </div> ''')
+            </div>
+        """
+    )
